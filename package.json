@@ -1,0 +1,28 @@
+{
+  "name": "proj-61-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "source": "./src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bramz7/Proj-61-Frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bramz7/Proj-61-Frontend/issues"
+  },
+  "homepage": "https://github.com/Bramz7/Proj-61-Frontend#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "^2.6.2"
+  },
+  "dependencies": {
+    "bootstrap": "^5.2.0"
+  }
+}
