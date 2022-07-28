@@ -8,7 +8,6 @@ function darkMode() {
 }
 
 
-
 // // document.getElementById("darkmode").onclick = function() {darkMode()};
 
 // function myFunction() {
