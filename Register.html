@@ -12,25 +12,32 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
     <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="javascript" type="text/js" href="script.js">
-    <title> Forget Password</title>
+   <link rel="stylesheet" type="text/css" href="login&signup.css">
+    <link rel="javascript" type="text/js" href="login&signup.js">
+    <title> Register</title>
 </head>
 <body>
     <div class="container"> 
+    <h2 class="Login"> Register</h2><br>    
      <form action="/action_page.php">
-            <h2 class="find"> Find Your  Account</h2><br>    
-
-    <label for="fname">Please enter email address to retrieve for you account</label>
+    <label for="fname">Username</label>
     <input type="text" id="fname" name="firstname" placeholder=" Username..">
 
-   
+      <label for="email"> E-mail</label>
+    <input type="email" id="email" name="email" placeholder="email">
+
+    <label for="Password"> Password</label>
+    <input type="password" id="password" name="password" placeholder="Password">
+        <label for="Password">Confirm Password</label>
+    <input type="password" id="password" name="password" placeholder="Password">
 
   
-    <input type="submit" value="Retrieve Your Account">
+    <input type="submit" value="Register">
+        <input type="submit" value="Continue with Google">
 
  
 
+        <p class="dont">Have  an account? <span> <a href="Login.html" class=""> Login</a></span> </p>
         
         <br>
         
