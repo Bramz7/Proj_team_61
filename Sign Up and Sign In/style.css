@@ -1,161 +1,73 @@
-body  
-{  
-    margin: 0;  
-    padding: 0;  
-    background-color: white;   
-    font-family: 'Montserrat';
-    font-style: normal; 
-}  
-.login{  
-        width: 382px;  
-        overflow: hidden;  
-        margin: auto;  
-        margin: 20 0 0 450px;  
-        padding: 80px;  
-        background: #D9D9D9;
-        ;
-        border-radius: 15px ;  
-        
-        
-}  
-.X{
-    color: rgba(96, 96, 96, 0.7);
-    margin-left: 420px;
-    margin-top: -50px;
-}
-.Sign{
-   
-    
-    height: 29px;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 29px;
 
-   color: rgba(96, 96, 96, 0.7);
+
+
+form{
+    padding: 61px ;
+    width: 50%;
+    margin: 62px auto;
+    background-color: white;
+    box-shadow: 0px 10px 36px 0px rgba(0, 0, 0, 0.1);
 }
-h2{  
-    text-align: center;  
-    color:  rgba(96, 96, 96, 0.7);;  
-    padding: 20px;  
-}  
-label{  
-    color: #23463f;  
-    font-size: 17px;  
-}  
-.Username{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 10px;
-    margin-left: 30px;
-    color: rgba(96, 96, 96, 0.7);
+
+.find{
+    text-align: left;
 }
-.Password{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 10px;
-    margin-left: 30px;
-    color: rgba(96, 96, 96, 0.7);
+.Login{
+    text-align: center;
+    padding-top: 41px;
+        width: 50%;
+        margin: auto;
 }
-.Email{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 10px;
-    margin-left: 30px;
-    color: rgba(96, 96, 96, 0.7);
+input[type=text],
+input[type=password],
+input[type=email],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.already{
-position: absolute;
-width: 200px;
-height: 15px;
-left: 590px;
-top: 490px;
-color: #606060;
-font-weight: 400;
-font-size: 12px;
-line-height: 15px;
+
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
-.GT{
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 15px;
+
+input[type=submit]:hover {
+    background-color: orange;
 }
 .dont{
-position: absolute;
-width: 200px;
-height: 15px;
-left: 590px;
-top: 355px;
+
+padding-top: 21px;
 color: #606060;
 font-weight: 400;
-font-size: 12px;
+font-size: 15px;
 line-height: 15px;
+text-align: center;
 }
-#Uname{  
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 7px;  
-    padding-left: 8px; 
-    margin-left: 30px;
-    background-color: #606060;
-    color: rgba(96, 96, 96, 0.7);
-    font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-}  
-#Email{  
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 7px;  
-    padding-left: 8px; 
-    margin-left: 30px;
-    background-color: #606060; 
-    color: rgba(96, 96, 96, 0.7);
-    font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-}  
-#Pass{  
-    width: 300px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 7px;  
-    padding-left: 8px;  
-    margin-left: 30px;
-    background-color: #606060;
-    color: rgba(96, 96, 96, 0.7);
-    font-weight: 400;
-font-size: 12px;
-line-height: 15px;
-      
-}  
-#log{  
-    width: 310px;  
-    height: 30px;  
-    border: none;  
-    border-radius: 7px;  
-    margin-left: 30px;
-    padding-left: 7px;  
-    color: #606060;
-     background-color: #f6f6f6;
-     transition: .4s ease;
-     letter-spacing: 0.1em;
+ 
+h5 {
+    text-align: right;
+} 
+
+ h5 a,
+ span a{
+    text-decoration: none;
+    color: orange;
+ }
+
+ @media screen and (max-width : 1000px) {
+    form{
+        width: 100%;
+    }
     
-     
-  
-}  
-#log:hover{
-    background-color: goldenrod;
-}
-span{  
-    color: white;  
-    font-size: 17px;  
-}  
-a{  
-    float: right;  
-    background-color: grey;  
-}  
-Sign{
-padding-left: 20px;
-}
+ }
