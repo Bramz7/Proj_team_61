@@ -28,12 +28,13 @@
     text-align: center;
   }
 
-  #profile-container{
+  .profile-container{
       margin: auto ;
       display: inline-block;
       position: relative;
+      float: left;
   }
-        #profile-container img{
+        .profile-container img{
           width: 30px !important;
           margin: auto 22px;
           display: inline-block;
