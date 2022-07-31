@@ -87,6 +87,12 @@ svg {
   padding: 13px 0;
 }
 
+.center {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+}
+
 /* navbar */
 /* first-section */
 .first-section {
@@ -164,11 +170,6 @@ path {
   background-color: #eeeeee;
 }
 
-@media screen and (max-width: 1000px) {
-  .navbar-expand-lg .offcanvas .offcanvas-header {
-    display: none;
-  }
-}
 @media screen and (max-width: 1390px) {
   .Archive-icon h1 {
     font-size: 24px !important;

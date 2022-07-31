@@ -109,6 +109,11 @@ svg {
     padding: 13px 0;
 }
 
+.center{
+
+     width:fit-content !important;
+  
+}
 
 /* navbar */
 
@@ -195,9 +200,7 @@ path {
 }
 
 @media screen and (max-width: 1000px) {
-    .navbar-expand-lg .offcanvas .offcanvas-header {
-        display: none;
-    }
+  
 
   
 }
